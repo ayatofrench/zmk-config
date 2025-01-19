@@ -1,0 +1,13 @@
+#define CONFIG_WIRELESS
+#define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                   \
+    ZMK_LAYER(                                                                 \
+        name,                                                                  \
+        &kp TAB     LT RT &kp SEMI                                                 \
+        &kp ESC     LM RM &comma_qmark                                             \
+        &excl_prcnt LB RB &grave_pipe                                              \
+        &kp LGUI    LH RH &tilde_hash                                              \
+    )
+
+#include "zmk-helpers/key-labels/42.h"
+#include "base.keymap"
+
