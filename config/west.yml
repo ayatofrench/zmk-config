@@ -39,7 +39,7 @@ manifest:
       path: modules/zmk/adaptive-key
     - name: zmk-auto-layer
       path: modules/zmk/auto-layer
-    - name: zmk-helpers
+    - name: zmk-helperswestwest
       path: modules/zmk/helpers
     - name: zmk-leader-key
       revision: v0.1+locality
